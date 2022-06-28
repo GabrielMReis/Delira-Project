@@ -1,2 +1,65 @@
-#title, .subtitle, .posttitle
-{color:blue}
+body{
+    background: rgb(172, 235, 188)
+    
+}
+.flex{
+    position: center;
+    max-width: 1900px;
+    padding: 5px;
+    border: 8px solid rgb(113, 122, 238);
+    display:flex;
+    justify-content: center;
+    flex: auto;
+    
+    
+   
+}
+
+.item{
+    background-color: rgb(113, 122, 238);
+    margin: 6px;
+    text-align: center;
+    justify-content: center;
+    
+    
+    
+}
+
+hr{ 
+    border: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, transparent, rgb(113, 122, 238), transparent);  
+    
+}
+a{
+    text-decoration:
+}
+
+
+#title {
+    text-align: center;
+    
+    color:rgb(113, 122, 238)
+    
+}
+
+.item{
+    color:rgb(172, 235, 188);
+}
+
+.subtitle{
+    color:rgb(113, 122, 238)
+
+} 
+.post_title {
+    color:rgb(113, 122, 238)
+    
+}
+.contact_list {
+    list-style-image
+    
+}
+.rodape {
+    color:rgb(113, 122, 238);
+    
+}
