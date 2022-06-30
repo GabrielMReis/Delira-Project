@@ -2,7 +2,12 @@ body{
     background: rgb(172, 235, 188)
     
 }
+@font-face {
+    font-family: 'Valorant';
+    src: url('fonts/Valorant Font.ttf') format('truetype');
+}
 .flex{
+    font-family: 'Valorant';
     position: center;
     max-width: 1900px;
     padding: 5px;
@@ -32,17 +37,94 @@ hr{
     
 }
 a{
-    text-decoration:
+  
 }
 
 
 #title {
+    font-size: 50px;
+    font-family: 'Valorant';
     text-align: center;
-    
     color:rgb(113, 122, 238)
     
 }
+.deliralogo{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    
+    
+}
 
+.deliralogo img{
+    height: 33rem;
+    justify-content: center;
+    justify-content: space-between;
+    margin-left: -35%;
+    
+}
+
+    
+.telalogin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.continue{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    
+    
+}
+
+.group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction:column;
+
+    width: 100%;
+    padding: 5px;
+    border: 6px solid;
+    border-color: rgb(113, 122, 238)
+}
+.group:nth-child(1) {
+    min-height: 15rem;
+    justify-content: space-between;
+
+}
+    
+.profilepic{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 35%;
+        overflow:hidden
+}
+.profilepic img{
+    height:200px
+}
+.delira-login{
+    background-color:rgb(113, 122, 238);
+    padding:7px;
+    border-radius: 3px;
+}
+
+.delira-logout{
+    color:rgb(113, 122, 238);
+    
+}
+.not-account{
+    color: rgb(113, 122, 238);
+}
+
+.link-blue{
+    color: rgb(113, 122, 238);
+}
 .item{
     color:rgb(172, 235, 188);
 }
@@ -56,10 +138,10 @@ a{
     
 }
 .contact_list {
-    list-style-image
+    
     
 }
 .rodape {
-    color:rgb(113, 122, 238);
+   
     
 }
